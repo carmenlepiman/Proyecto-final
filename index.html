@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polerones Leki</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <nav id="menu">
+      <figure>
+        <img src="img/gallo.png" alt="Logo le" />
+      </figure>
+      <ul>
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="productos.html">Productos</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="cuerpo">
+      <header class="banner">
+        <figure>
+          <img src="img/slider-Poleron.jpg" alt="poleron" />
+        </figure>
+        <p>Leki, encontraras variedad con estilo</p>
+      </header>
+      <div style="height: 600px">
+        <div class="columna1">
+          <figure>
+            <img
+              src="img/polar gris y negro.png"
+              alt="polar color gris y negro"
+            />
+          </figure>
+        </div>
+        <div class="textocolumna">
+          <h1>Colección exclusiva</h1>
+          <p>
+            ¿Buscas variedad de polerones? En Leki, encontraras distintos
+            modelos en tendencias de mujer y hombre que te encantaran. No te
+            pierdas los descuentos que tenemos para ti, solo por este mes!
+          </p>
+        </div>
+      </div>
+      <div class="elemento">
+        <h1>Dejanos tus datos, y estaras obteniendo un 30% de descuento de manera automatica.</h1> <br>
+        <div class="item">
+          <label for="">Nombre De Usuario</label> <br />
+          <input type="text" placeholder="Ingresa tu nombre" id="name" />
+        </div>
+        <div class="item">
+          <label for="">Numero de telefono</label> <br />
+          <input type="number" placeholder="Ingresa tu telefono" id="tel" />
+        </div>
+        <div class="item">
+          <label for="">Email</label> <br />
+          <input type="text" placeholder="Ingresa tu email" id="email"/>
+        </div>
+        <div class="item">
+          <label for="">Mensaje</label>
+          <textarea
+            placeholder="Ingresa tu mensaje"
+            id="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <button class="btn" onclick="ValidarDatos()">
+          <i class="fas fa-address-book"></i> Enviar datos
+        </button>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright. Leki tienda de polerones 2021</p>
+  </footer>
+  </body>
+</html>

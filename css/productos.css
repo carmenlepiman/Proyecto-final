@@ -1,0 +1,38 @@
+#titulo {
+  text-align: center;
+}
+
+#titulo h1 {
+  font-size: 4em;
+}
+.contenedor {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.item {
+  padding: 15px;
+  text-align: center;
+  width: 390px;
+  height: 350px;
+  margin-top: 25px;
+  border-radius: 30px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.33);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.33);
+}
+
+.producto img {
+  width: 40%;
+}
+
+.precio {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+footer p {
+  color: white !important;
+  font-size: xx-large;
+}

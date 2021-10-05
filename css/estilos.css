@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* nav */
+#menu {
+  background-color: powderblue;
+  display: flex;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-right: 30px;
+  margin-top: 30px;
+  list-style: none;
+}
+
+a {
+  color: white;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+#menu img {
+  width: 20%;
+  float: left;
+  margin: 15px;
+}
+
+/* section */
+.cuerpo img {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.banner p {
+  font-size: 4em;
+  text-align: center;
+}
+
+.columna1 {
+  margin-top: 70px;
+  width: 40%;
+}
+
+.columna1 img {
+  float: left;
+  width: 70%;
+}
+.textocolumna {
+  text-align: center;
+  font-size: 2rem;
+  width: 40%;
+  float: left;
+}
+/* contacto */
+
+.elemento h1 {
+  margin-top: 100px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.elemento > .item {
+  width: 48%;
+  max-width: 48%;
+  display: block;
+  margin: auto;
+}
+
+.elemento textarea {
+  width: 100%;
+}
+
+.elemento input {
+  width: 100%;
+}
+
+.btn {
+  font-size: 25px;
+  background-color: #3b5998;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 8px;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  background-color: powderblue;
+}
+
+footer p {
+  color: white !important;
+  font-size: xx-large;
+}
+
+.success{
+  border: 1px solid green!important;
+}
+
+.error{
+  border: 1px solid red!important;
+}
+
+@media (min-device-width: 740px) and (max-device-width: 1024px) {
+  .cuerpo {
+    background-color: lightsalmon !important;
+  }
+}
